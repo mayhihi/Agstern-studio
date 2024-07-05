@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Agstern" content="width=device-width, initial-scale=1.0">
+    <title>Giở hàng của nhà Agstern</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link your CSS file here -->
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .product img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-title {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #333;
+        }
+        .product-price {
+            color: #009688;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .cart-icon {
+            font-size: 1.5rem;
+            color: #4caf50;
+            cursor: pointer;
+        }
+        .cart-icon:hover {
+            color: #388e3c;
+        }
+        .cart-count {
+            background-color: #4caf50;
+            color: #fff;
+            border-radius: 50%;
+            padding: 5px 8px;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+        .checkout-button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .checkout-button:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thêm vào giở hàng</h1>
+        
+        <div class="product">
+            <img src="../hình ảnh/438252957_939219634562417_1824690726483722339_n.jpg" alt="Product 1">
+            <div class="product-info">
+                <h2 class="product-title">-Ethereal set in white-&nbsp;</h2>
+                <p class="product-price">590k</p>
+                <span class="cart-icon">&#128722;</span> <!-- Shopping cart icon -->
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="../hình ảnh/outfit.jpg" alt="Product 2">
+            <div class="product-info">
+                <h2 class="product-title">Jan dress&nbsp;</h2>
+                <p class="product-price">690k</p>
+                <span class="cart-icon">&#128722;</span>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="../hình ảnh/agstern.jpg" alt="Product 3">
+            <div class="product-info">
+                <h2 class="product-title">Jan dress</h2>
+                <p class="product-price">690k&nbsp;</p>
+                <span class="cart-icon">&#128722;</span>
+            </div>
+        </div>
+
+        <button class="checkout-button">Mua ngay nào!</button>
+    </div>
+</body>
+</html>
+
